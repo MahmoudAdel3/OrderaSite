@@ -393,7 +393,8 @@ add your styles in Customizer > Additional CSS.
 
     .slides > li .slide_button a { font-size: 20px !important }
 
-    .slides > li .li-wrap { margin-top: 30px !important; }
+    .slides > li .li-wrap { margin-top: 60px !important; }
+	.navbar-brand-wpz{float: none; text-align: center; margin: 0 auto;}
 
     .inner-wrap .site-main { width: 100%; }
     .inner-wrap .sidebar--shop { width: 100%; }
