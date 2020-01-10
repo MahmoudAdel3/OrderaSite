@@ -1,0 +1,66 @@
+.order-container {
+    width: 100%;
+}
+.order-title {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+.order-description {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    color: white;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+.navbar-brand-wpz img {
+    width: 130px;
+}
+#steps > li {
+    padding: 70px 0 0 0 !important;
+}
+#steps li img {
+    padding-top: 15px !important;
+    /* width: 225px !important; */
+    width: 225px !important;
+}
+#scroll-to-content {
+    margin-left: -30px !important;
+    /* margin-top: 15px !important; */
+    bottom: 10px !important;
+}
+.logo-slider {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+.logo-slider-item {
+    outline: none !important;
+}
+
+
+
+
+@media  only screen and (max-width: 320px) {
+
+    .order-container{
+        padding-top: 45px !important;
+    }
+    #steps li img {
+        width: 75% !important;
+        
+    }
+}
+
